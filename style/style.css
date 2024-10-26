@@ -1,3 +1,4 @@
+ feature/button
 button {
     display: flex;
     background-color: #de14de;
@@ -15,4 +16,95 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #5A19BB;
+  width: 100%;
+  height: 50rem;
+}
+
+p {
+  margin-right: 1em;
+}
+
+.main {
+  margin: 0 auto;
+  margin-top: 5em;
+  width: 70%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 100);
+}
+
+.form {
+  height: auto;
+  width: auto;
+  justify-content: center;
+}
+
+.information {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.material-icons {
+  font-size: 20rem;
+  text-align: center;
+  color: #ff84ff;
+}
+
+.user {
+  color: #2943fd;
+  font-size: 3rem;
+}
+form {
+  width: 100%;
+  display: grid;
+  margin: 10px;
+  color: #FE2AFD;
+}
+
+input[type=text] {
+  font-size: 15px;
+  padding: 1rem;
+  width: 100%;
+  color: #9c9999;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #FE2AFD;
+}
+
+input[type=password] {
+  font-size: 15px;
+  padding: 1rem;
+  width: 100%;
+  color: #9c9999;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #FE2AFD;
+}
+
+input::placeholder {
+  color: #868383;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #ea63f7; /* Adjust the focus color as needed */
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
 }
