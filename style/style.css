@@ -5,7 +5,7 @@
 button {
   display: flex;
   background-color: #de14de;
-  width: 115%;
+  width: 100%;
   height: 6vh;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@ button:hover {
 .icons {
   width: 100%;
   margin: 1em 0;
-  padding: 1em;
+  padding: 1em 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -44,7 +44,7 @@ body {
 }
 
 p {
-  margin-right: 1em;
+  width: 100%;
 }
 
 .main {
@@ -82,19 +82,19 @@ p {
 .user {
   color: #2943fd;
   font-size: 3rem;
-  padding-left: 20px;
+  width: 100%;
 }
 
 form {
   width: 100%;
   display: grid;
-  margin: 10px;
+  margin: 10px 0 0;
   color: #fe2afd;
 }
 
 input[type="text"] {
   font-size: 15px;
-  padding: 1rem;
+  padding: 1rem 0;
   width: 100%;
   color: #9c9999;
   margin-bottom: 10px;
@@ -104,7 +104,7 @@ input[type="text"] {
 
 input[type="password"] {
   font-size: 15px;
-  padding: 1rem;
+  padding: 1rem 0;
   width: 100%;
   color: #9c9999;
   margin-bottom: 10px;
@@ -132,6 +132,7 @@ input:focus {
 
 .checkbox a {
   text-decoration: none;
+  color: #2943fd;
 }
 
 .image img {
