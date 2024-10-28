@@ -1,0 +1,140 @@
+.btn {
+  margin-bottom: 1em;
+}
+
+button {
+  display: flex;
+  background-color: #de14de;
+  width: 115%;
+  height: 6vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  border: #de14de;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #2943fd;
+  border: 1px solid #de14de;
+}
+
+.icons {
+  width: 100%;
+  margin: 1em 0;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #5a19bb;
+  width: 100%;
+  height: 50rem;
+}
+
+p {
+  margin-right: 1em;
+}
+
+.main {
+  margin: 0 auto;
+  margin-top: 5em;
+  width: 70%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  box-shadow: 2px 5px #000;
+}
+
+.form {
+  height: auto;
+  width: auto;
+  justify-content: center;
+}
+
+.information {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.material-icons {
+  padding-left: 20px;
+  font-size: 20rem;
+  text-align: center;
+  color: #ff84ff;
+}
+
+.user {
+  color: #2943fd;
+  font-size: 3rem;
+  padding-left: 20px;
+}
+
+form {
+  width: 100%;
+  display: grid;
+  margin: 10px;
+  color: #fe2afd;
+}
+
+input[type="text"] {
+  font-size: 15px;
+  padding: 1rem;
+  width: 100%;
+  color: #9c9999;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #fe2afd;
+}
+
+input[type="password"] {
+  font-size: 15px;
+  padding: 1rem;
+  width: 100%;
+  color: #9c9999;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #fe2afd;
+}
+
+input::placeholder {
+  color: #868383;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #ea63f7; /* Adjust the focus color as needed */
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 2px;
+}
+
+.checkbox a {
+  text-decoration: none;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
