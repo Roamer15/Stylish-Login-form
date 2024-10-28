@@ -1,7 +1,11 @@
+.btn {
+  margin-bottom: 1em;
+}
+
 button {
   display: flex;
   background-color: #de14de;
-  width: 100%;
+  width: 115%;
   height: 6vh;
   justify-content: center;
   align-items: center;
@@ -9,12 +13,23 @@ button {
   font-weight: bold;
   color: #fff;
   border: #de14de;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #2943fd;
+  border:1px solid #de14de;
 }
 
 .icons {
+  width: 100%;
+  margin: 1em 0;
+  padding: 1em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 * {
@@ -58,6 +73,7 @@ p {
 }
 
 .material-icons {
+  padding-left: 20px;
   font-size: 20rem;
   text-align: center;
   color: #ff84ff;
@@ -66,6 +82,7 @@ p {
 .user {
   color: #2943fd;
   font-size: 3rem;
+  padding-left: 20px;
 }
 
 form {
