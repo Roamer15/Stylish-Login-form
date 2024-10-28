@@ -1,20 +1,20 @@
 button {
-    display: flex;
-    background-color: #de14de;
-    width: 100%;
-    height: 6vh;
-    justify-content: center;
-    align-items: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: #fff;
-    border: #de14de;
+  display: flex;
+  background-color: #de14de;
+  width: 100%;
+  height: 6vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  border: #de14de;
 }
 
 .icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 * {
