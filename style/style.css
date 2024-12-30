@@ -140,22 +140,19 @@ input:focus {
   height: 100%;
 }
 
-@media (max-width: 520px) {
-  
+@media screen and (max-width: 768px) {
+  .main {
+    display: block;
+  }
+
   .image {
     display: none;
   }
 
-  .main {
-    margin: 0 auto;
-    margin-top: 5em;
-    width: auto;
-    height: auto;
-    display: grid;
-    grid-template-columns: 100%;
-    box-shadow: 2px 5px #000;
+  form {
+    display: block;
   }
-  
+
   input[type="text"] {
     font-size: 15px;
     padding: 1rem 0;
@@ -165,7 +162,7 @@ input:focus {
     border: none;
     border-bottom: 1px solid #fe2afd;
   }
-  
+
   input[type="password"] {
     font-size: 15px;
     padding: 1rem 0;
@@ -189,7 +186,7 @@ input:focus {
     border: #de14de;
     cursor: pointer;
   }
-  
+
   button:hover {
     background-color: #fff;
     color: #2943fd;
