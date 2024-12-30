@@ -140,60 +140,17 @@ input:focus {
   height: 100%;
 }
 
-@media (max-width: 520px) {
-  
+@media screen and (max-width: 768px) {
+  .main {
+    display: block;
+  }
+
   .image {
     display: none;
   }
 
-  .main {
-    margin: 0 auto;
-    margin-top: 5em;
-    width: auto;
-    height: auto;
-    display: grid;
-    grid-template-columns: 100%;
-    box-shadow: 2px 5px #000;
-  }
-  
-  input[type="text"] {
-    font-size: 15px;
-    padding: 1rem 0;
-    width: 100%;
-    color: #9c9999;
-    margin-bottom: 10px;
-    border: none;
-    border-bottom: 1px solid #fe2afd;
-  }
-  
-  input[type="password"] {
-    font-size: 15px;
-    padding: 1rem 0;
-    width: 100%;
-    color: #9c9999;
-    margin-bottom: 10px;
-    border: none;
-    border-bottom: 1px solid #fe2afd;
-  }
-
-  button {
-    display: flex;
-    background-color: #de14de;
-    width: 100%;
-    height: 6vh;
-    justify-content: center;
-    align-items: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: #fff;
-    border: #de14de;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #fff;
-    color: #2943fd;
-    border: 1px solid #de14de;
+  form {
+    display: block;
   }
 }
 
